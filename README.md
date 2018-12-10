@@ -5,7 +5,7 @@ a. *https://medium.com/datadriveninvestor/music-generation-using-deep-learning-8
 b. *https://github.com/gauravtheP/Music-Generation-Using-Deep-Learning*
 
 ### 2. The list of files that you modified and the specific functions within each file you modified for your project:
-    Both our files are generated differently 
+ Both our files are generated differently 
 ### 3. A list of commands to train baseline 
 Type the following command in your working directory to start training the baseline model:<br>
 *python train_model.py* <br>
