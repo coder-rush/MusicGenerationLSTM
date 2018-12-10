@@ -2,7 +2,7 @@ import json
 import numpy as np
 from keras.models import Sequential
 from keras.layers import LSTM, Dropout, Dense, Embedding
-
+#This function builds the architecture of the LSTM Model
 def build_gen_model(no_of_unique):
     model = Sequential()
     model.add(Embedding(input_dim=no_of_unique, output_dim=512, batch_input_shape=(1,1)))
@@ -15,6 +15,7 @@ def build_gen_model(no_of_unique):
     model.add(Dense(no_of_unique,activation='softmax'))
     return model
 
+#This model generates input characters for the model
 def generating_seq(idx,len_sequence):
     with open("char_index_nd.json") as f:
         char_index = json.load(f)
