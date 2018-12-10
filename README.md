@@ -17,5 +17,5 @@ This needs you to have the initial data files as present in the initial project 
 4. Software Requirements:
 a. TensorFlow 1.12
 b. Keras 
-b. numpy
-c. json
+c. numpy
+d. json
