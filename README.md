@@ -9,9 +9,9 @@ b. https://github.com/gauravtheP/Music-Generation-Using-Deep-Learning
 2. The list of files that you modified and the specific functions within each file you modified for your project:
     Both our files are generated differently 
 3. A list of commands to train baseline 
-Type the following command in your working directory to start training the baseline model:  
-*python train_model.py* . 
-Type the following command to generate new sheet music:   
+Type the following command in your working directory to start training the baseline model: 
+*python train_model.py* <br>
+Type the following command to generate new sheet music: <br>   
 *python generator.py* . 
 This needs you to have the initial data files as present in the initial project files.    
 4. Software Requirements:  
