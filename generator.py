@@ -3,6 +3,7 @@ import numpy as np
 from keras.models import Sequential
 from keras.layers import LSTM, Dropout, Dense, Embedding
 #This function builds the architecture of the LSTM Model
+#This is the same function as applied to training data in train_model.py
 def build_gen_model(no_of_unique):
     model = Sequential()
     model.add(Embedding(input_dim=no_of_unique, output_dim=512, batch_input_shape=(1,1)))
