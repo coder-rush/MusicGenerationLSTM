@@ -1,4 +1,4 @@
-       # Music Generation using Character RNN with LSTM:
+# Music Generation using Character RNN with LSTM:
 The project implements character RNN with LSTM in Keras.  
 Contains the data and the following files. The data is music in abc notations obtained from Nottingham Musical Database.
 *http://abc.sourceforge.net/NMD/* <br>
