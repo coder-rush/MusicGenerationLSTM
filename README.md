@@ -10,10 +10,10 @@ b. https://github.com/gauravtheP/Music-Generation-Using-Deep-Learning
     Both our files are generated differently 
 3. A list of commands to train baseline 
 Type the following command in your working directory to start training the baseline model:  
-*python train_model.py*
-Type the following command to generate new sheet music:  
+*python train_model.py* . 
+Type the following command to generate new sheet music:   
 *python generator.py* . 
-This needs you to have the initial data files as present in the initial project files.  
+This needs you to have the initial data files as present in the initial project files.    
 4. Software Requirements:  
 a. TensorFlow 1.12   
 b. Keras   
